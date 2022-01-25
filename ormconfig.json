@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "seb9913",
+  "database": "projecto",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["src/modules/shared/infra/db/typeorm/schemas/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"]
+}
